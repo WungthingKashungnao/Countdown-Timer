@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    background: linear-gradient(to bottom right, #A8E890, #CFFF8D);
+    height: 100vh;
+    width: 100%;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+}
+.text{
+    color: white;
+    font-size: 5rem;
+}
+.timer{
+    /* border: 1px solid white; */
+    margin-top: 50px;
+    width: 70%;
+    /* height: 150px; */
+
+    display: flex;
+    justify-content: space-between;
+}
+.time_box{
+    text-align: center;
+}
+.time_box label{
+    font-size: 3rem;
+    color: white;
+}
+.time_box input{
+    display: block;
+    width: 200px;
+    height: 100px;
+    border: none;
+    outline: none;
+    font-size: 3rem;
+    text-align: center;
+}
